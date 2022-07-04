@@ -1,0 +1,28 @@
+@media(max-width:1300px){
+    /* body{
+        background-color: black;
+    }
+    .Card{
+        background-color: white;
+    } */
+    .medialeft{
+        display: none;
+    }
+    .medianavbar{
+        display: none;
+    }
+    .mediamenu2{
+        display: block!important;
+    }
+    .mediamenu1{
+        display: block!important;
+    }
+    /* .Card{
+        margin-left: 5px;
+    } */
+}
+@media(min-width:1300px){
+ .Card{
+     margin-left: 20%;
+ }
+}

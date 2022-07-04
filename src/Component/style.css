@@ -1,0 +1,244 @@
+.ins{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.png_instagramm{
+    margin-left: 300px;
+}
+.search{
+    z-index: 100;
+    margin-top: 10px;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 450px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px grey;
+    box-shadow: 0px 0px 5px grey;
+    overflow-x: hidden;
+}
+.avatar{
+    height: 55px;
+    border: 2px solid rgb(207, 78, 78);
+}
+.topp{
+    margin-top: 100px;
+}
+.mirziyoyeva{
+    border-radius: 50%;
+}
+.avatar2{
+    height: 50px;
+    margin-left: 15px;
+    border: 2px solid rgb(207, 78, 78);
+}
+.icon_size{
+    font-size: 0px;
+    height: 20px;
+}
+.avatar3{
+    height: 35px;
+    margin-left: 20px;
+    border: 2px solid rgb(207, 78, 78);
+}
+.full_name{
+    font-size: 15px;
+}
+.nick_name{
+    font-size: 13px;
+}
+.search_photo{
+    width: 40px;
+    height: 40px;
+}
+.Card{
+    width:530px!important;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.top_margine{
+    margin-top: 75px;
+}
+.a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.point{
+    position: relative;
+    left: 220px;
+}
+.shoes{
+    width: 528px;
+    height: 500px;
+}
+.recomon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.recomon2{
+    position: relative;
+    right: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;  
+
+}
+.recomon4{
+    font-size: 12px;
+}
+.fixed{
+    position: fixed;
+    top: 90px;
+    right: 100px;
+}
+.navbar{
+display: none;
+}
+.MuiSvgIcon-root{
+    font-size: 30px!important;
+}
+.follow{
+    position: absolute;
+    right: 140px;
+}
+.search_element{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.search_close{
+    position: absolute;
+    left: 260px;
+    
+    font-size: 25px;
+}
+.a a{
+    color: black;
+    text-decoration: none;
+}
+.a{
+    margin-right: 50px;
+    text-decoration: none;
+}
+.views{
+    margin-right: 125px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tex{
+   position: relative;
+   font-size: 12px;
+   right: 70px;
+
+}
+.nick_Name{
+    color: grey;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.fixedd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    
+}
+/* ##  Single_user  style - >################## */
+
+.single_photo{
+    border-radius: 50%;
+    height: 170px;
+}
+.btnn{
+    border-radius: 7px;
+    background-color: rgb(243, 240, 240);
+    border: 1px solid grey;
+}
+.italy{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.usr_info{
+    margin-top: 10px
+}
+.category{
+    margin-top: 40px;
+    margin-left: 400px;
+}
+/* Single page style */
+.singphoto{
+    border-radius: 50%;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+}
+.singname{
+    margin-top: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-left: 60px;
+}
+.singbtn{
+    background-color: rgb(23, 118, 186);
+    color: white;
+    width: 85px;
+    height: 30px;
+    position: absolute;
+    top: 120px;
+    left: 865px;
+    border-radius: 5px;
+}
+.singfollow{
+    position: absolute;
+    top: 170px;
+    left: 475px;
+    font-family: bold;
+}
+.singfulName{
+    position: absolute;
+    top: 210px;
+    left: 475px;
+}
+.singbtn2{
+    display: flex;
+    justify-content: center;
+}
+/* media menu start style*/
+.mediamenu2{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    z-index: 1000;
+    padding: 5px 0px;
+    background-color: black;
+    display: none;
+}
+.mediamenuicon{
+    margin-left: 50px!important;
+    color: white;
+    font-size: 30px!important;
+}
+.mediainstagramlogo{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.mediamenu1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+    padding: 5px 0px;
+    display: none;
+}
