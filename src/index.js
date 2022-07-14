@@ -21,7 +21,7 @@ ReactDOM.render(
         <Route path='/singlepage' element={<SinglePage/>}/>
         <Route path="/about" element={<Navbar/>}/>
         <Route path='/left' element={<Left/>}/>
-        <Route path='/left' element={<Left_test/>}/>
+        {/* <Route path='/left' element={<Left_test/>}/> */}
         <Route path='/single_user' element={<Single_user/>}/>
       </Routes>
     </BrowserRouter>

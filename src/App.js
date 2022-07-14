@@ -7,14 +7,13 @@ import { BrowserRouter, Route, Routes , Outlet} from 'react-router-dom';
 import Right from './Component/Right';
 import NewLeft from './Component/NewLeft';
 import SinglePage from './SinglePage';
-
 function App() {
   return (
     <div className="container">
        <Navbar />
        {/* <Right/> */}
        <div>
-         <Outlet/>
+         {/* <Outlet/> */}
        </div>
        <Left/>
        <NewLeft/>
