@@ -40,14 +40,14 @@ const Navbar = () => {
         <hr/>
        </div>
        <div className='mediamenu1'>
-       <div className=' ins text-center'><span className='mediainstagramlogo '>Instagram</span></div>
+       <div className=' ins text-center'><span className='mediainstagramlogo '><i>Instagram</i></span></div>
        </div>
        <div className='mediamenu2'>
          <p className='text-center'>
          <Link to="/">
                 <HomeIcon className='mediamenuicon'/>
               </Link>
-              <OfflineBoltIcon className='mediamenuicon '/>          
+              {/* <OfflineBoltIcon className='mediamenuicon '/>           */}
               <HealthAndSafetyIcon className='mediamenuicon'/>
               <AssignmentIcon className='mediamenuicon'/>
               <FavoriteBorderIcon className='mediamenuicon'/>

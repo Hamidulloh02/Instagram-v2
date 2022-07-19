@@ -3,9 +3,6 @@ import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import DirectionsIcon from '@mui/icons-material/Directions';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 
 export default function CustomizedInputBase() {
@@ -14,9 +11,6 @@ export default function CustomizedInputBase() {
       component="form"
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 528 }}
     >
-      {/* <IconButton sx={{ p: '10px' }} aria-label="menu">
-        <MenuIcon />
-      </IconButton> */}
       <IconButton type="submit" sx={{ p: '10px' }} aria-label="search">
         < SentimentSatisfiedAltIcon  className="text-dark"/>
       </IconButton>      
@@ -27,9 +21,6 @@ export default function CustomizedInputBase() {
       />
 
       <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
-      {/* <IconButton color="primary" sx={{ p: '10px' }} aria-label="directions">
-        <DirectionsIcon />
-      </IconButton> */}
       <a className="a" href="">Send</a>
     </Paper>
   );

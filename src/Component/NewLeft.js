@@ -4,9 +4,9 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import Like from './Like';
-import Right from './Right';
 import Comment from '../Component/Comment'
 import { Link } from 'react-router-dom'
+
 
 function NewLeft(props) {
     const [count, setcount] = useState([])
@@ -23,7 +23,7 @@ function NewLeft(props) {
       }, []);
   return (
     <>
-     {/* <Right data={{ism:'hamidullo'}}/> */}
+     {/* <Carusel/> */}
     {
             count.map((element, index) => {   
                         return(

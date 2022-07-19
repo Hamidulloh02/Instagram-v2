@@ -1,4 +1,5 @@
 import React from 'react';
+// import "./single_user.css"
 
 class Single_user extends React.Component {
     constructor(props) {
