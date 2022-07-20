@@ -1,2 +1,2 @@
 # Instagram-v2
- https://hamidulloh02.github.io/Instagram-v2/
+ https://Hamidulloh02.github.io/Instagram-v2/
